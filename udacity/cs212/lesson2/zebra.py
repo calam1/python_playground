@@ -1,7 +1,7 @@
 #incomplete
 import itertools
 
-print "BASEC ASSIGNMENT"
+print "BASIC ASSIGNMENT"
 houses = first, _, middle, _, _ = [1, 2, 3, 4, 5]
 print houses
 print first
