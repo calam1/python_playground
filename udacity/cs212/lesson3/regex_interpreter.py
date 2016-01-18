@@ -13,8 +13,12 @@ def match(pattern, text):
         shortest = min(remainders, key = len)
         print "shortest: ", shortest
         print "text: ", text
-        return text[:len(text)-len(shortest)]
+        return text[:len(text)-len(shortest)] #substring to the end, last index is exclusive
 
+# some examples of what/how we are matching
+#alt(x,y)   "x|y"
+#star(x) "x*"
+#plus(x) "x+"
 def matchset(pattern, text):
     "Match pattern at start of text, return a set of remainders of text"
     op, x, y = components(pattern)
@@ -45,7 +49,7 @@ def components(pattern):
     y = pattern[2] if len(pattern) > 2 else None
     return pattern[0], x, y
 
-def lit(string): return ('lit', string)
+def lit(string): return ('lit', string) #literal match
 def seq(x, y): return ('seq', x, y)
 def alt(x,y): return ('alt', x, y)
 def star(x): return ('star', x)
