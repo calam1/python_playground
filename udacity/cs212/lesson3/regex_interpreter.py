@@ -8,9 +8,11 @@ def search(pattern, text):
 def match(pattern, text):
     "Match pattern against start of text, return longest match found or None"
     remainders = matchset(pattern, text)
-    print "remainders: ", remainders
+    print "remaindersOut: ", remainders
     if remainders:
-        shortest = min(remainders, key = len)
+        print 'remaindersIn: ', remainders
+        print 'remaindersInLength: ', len(remainders)
+        shortest = min(remainders, key = len) #shortest length of array in the se
         print "shortest: ", shortest
         print "text: ", text
         return text[:len(text)-len(shortest)] #substring to the end, last index is exclusive
@@ -22,6 +24,8 @@ def match(pattern, text):
 def matchset(pattern, text):
     "Match pattern at start of text, return a set of remainders of text"
     op, x, y = components(pattern)
+    print 'x: ', x
+    print 'y: ', y
     if 'lit' == op:
         return set([text[len(x):]]) if text.startswith(x) else null
     elif 'seq' == op:
@@ -65,7 +69,7 @@ def test():
     #assert match(('alt', ('lit', 'b'), ('lit', 'a')), 'ab') == 'a'
     #assert search(('lit', ''), '') == ''
     #assert search(('lit', '12'), '12345') == '12'
-    assert search(('lit', '12'), '234125') == '12'
+    assert search(('lit', 'hr'), 'chris') == 'hr'
     #assert search(('alt', ('lit', 'b'), ('lit', 'c')), 'ab') == 'b'
     #assert matchset(('lit', 'abc'), 'abcdef')              == set(['def'])
     #assert matchset(('seq', ('lit', 'hi '), ('lit', 'there ')), 'hi there nice to meet you') == set(['nice to meet you'])
