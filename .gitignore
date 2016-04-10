@@ -3,3 +3,4 @@
 *.swn
 .python-version
 *.pyc
+*.idea
