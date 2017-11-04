@@ -40,7 +40,7 @@ def render_template(template_filename, context):
     ''' render doc '''
     return TEMPLATE_ENVIRONMENT.get_template(template_filename).render(context)
 
-def create_index_html():
+ create_index_html():
     ''' create '''
     fname = "output.html"
     # urls = ['http://example.com/1', 'http://example.com/2', 'http://example.com/3']
