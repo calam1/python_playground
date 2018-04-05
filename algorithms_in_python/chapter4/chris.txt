@@ -1,0 +1,386 @@
+label L tile 1
+s value 4
+offsets ((0, -1), (7, 0))
+if not filled: left + dx_outer 0  top + dy_outer 0
+x 3 y 3
+just filled square with 1
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 0
+x 4 y 3
+just filled square with 1
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 7
+x 3 y 4
+just filled square with 1
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 7
+board is filled with -1
+--------------------
+label L tile 2
+s value 2
+offsets ((0, -1), (3, 0))
+if not filled: left + dx_outer 0  top + dy_outer 0
+x 1 y 1
+just filled square with 2
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 0
+x 2 y 1
+just filled square with 2
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 3
+x 1 y 2
+just filled square with 2
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 3
+board is filled with 1
+--------------------
+label L tile 3
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 0  top + dy_outer 0
+x 0 y 0
+just filled square with 3
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 0
+x 1 y 0
+just filled square with 3
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 1
+x 0 y 1
+just filled square with 3
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 1
+board is filled with 2
+--------------------
+label L tile 4
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 2  top + dy_outer 0
+x 2 y 0
+just filled square with 4
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 0
+x 3 y 0
+just filled square with 4
+--------------------
+if not filled: left + dx_outer 2  top + dy_outer 1
+board is filled with 2
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 1
+x 3 y 1
+just filled square with 4
+--------------------
+label L tile 5
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 0  top + dy_outer 2
+x 0 y 2
+just filled square with 5
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 2
+board is filled with 2
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 3
+x 0 y 3
+just filled square with 5
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 3
+x 1 y 3
+just filled square with 5
+--------------------
+label L tile 6
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 2  top + dy_outer 2
+x 2 y 2
+just filled square with 6
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 2
+x 3 y 2
+just filled square with 6
+--------------------
+if not filled: left + dx_outer 2  top + dy_outer 3
+x 2 y 3
+just filled square with 6
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 3
+board is filled with 1
+--------------------
+label L tile 7
+s value 2
+offsets ((0, -1), (3, 0))
+if not filled: left + dx_outer 4  top + dy_outer 0
+x 5 y 1
+just filled square with 7
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 0
+x 6 y 1
+just filled square with 7
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 3
+board is filled with 1
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 3
+x 6 y 2
+just filled square with 7
+--------------------
+label L tile 8
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 4  top + dy_outer 0
+x 4 y 0
+just filled square with 8
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 0
+x 5 y 0
+just filled square with 8
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 1
+x 4 y 1
+just filled square with 8
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 1
+board is filled with 7
+--------------------
+label L tile 9
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 6  top + dy_outer 0
+x 6 y 0
+just filled square with 9
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 0
+x 7 y 0
+just filled square with 9
+--------------------
+if not filled: left + dx_outer 6  top + dy_outer 1
+board is filled with 7
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 1
+x 7 y 1
+just filled square with 9
+--------------------
+label L tile 10
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 4  top + dy_outer 2
+x 4 y 2
+just filled square with 10
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 2
+x 5 y 2
+just filled square with 10
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 3
+board is filled with 1
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 3
+x 5 y 3
+just filled square with 10
+--------------------
+label L tile 11
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 6  top + dy_outer 2
+board is filled with 7
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 2
+x 7 y 2
+just filled square with 11
+--------------------
+if not filled: left + dx_outer 6  top + dy_outer 3
+x 6 y 3
+just filled square with 11
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 3
+x 7 y 3
+just filled square with 11
+--------------------
+label L tile 12
+s value 2
+offsets ((0, -1), (3, 0))
+if not filled: left + dx_outer 0  top + dy_outer 4
+x 1 y 5
+just filled square with 12
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 4
+board is filled with 1
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 7
+x 1 y 6
+just filled square with 12
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 7
+x 2 y 6
+just filled square with 12
+--------------------
+label L tile 13
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 0  top + dy_outer 4
+x 0 y 4
+just filled square with 13
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 4
+x 1 y 4
+just filled square with 13
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 5
+x 0 y 5
+just filled square with 13
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 5
+board is filled with 12
+--------------------
+label L tile 14
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 2  top + dy_outer 4
+x 2 y 4
+just filled square with 14
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 4
+board is filled with 1
+--------------------
+if not filled: left + dx_outer 2  top + dy_outer 5
+x 2 y 5
+just filled square with 14
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 5
+x 3 y 5
+just filled square with 14
+--------------------
+label L tile 15
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 0  top + dy_outer 6
+x 0 y 6
+just filled square with 15
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 6
+board is filled with 12
+--------------------
+if not filled: left + dx_outer 0  top + dy_outer 7
+x 0 y 7
+just filled square with 15
+--------------------
+if not filled: left + dx_outer 1  top + dy_outer 7
+x 1 y 7
+just filled square with 15
+--------------------
+label L tile 16
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 2  top + dy_outer 6
+board is filled with 12
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 6
+x 3 y 6
+just filled square with 16
+--------------------
+if not filled: left + dx_outer 2  top + dy_outer 7
+x 2 y 7
+just filled square with 16
+--------------------
+if not filled: left + dx_outer 3  top + dy_outer 7
+x 3 y 7
+just filled square with 16
+--------------------
+label L tile 17
+s value 2
+offsets ((0, -1), (3, 0))
+if not filled: left + dx_outer 4  top + dy_outer 4
+x 5 y 5
+just filled square with 17
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 4
+x 6 y 5
+just filled square with 17
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 7
+x 5 y 6
+just filled square with 17
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 7
+board is filled with -1
+--------------------
+label L tile 18
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 4  top + dy_outer 4
+x 4 y 4
+just filled square with 18
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 4
+x 5 y 4
+just filled square with 18
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 5
+x 4 y 5
+just filled square with 18
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 5
+board is filled with 17
+--------------------
+label L tile 19
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 6  top + dy_outer 4
+x 6 y 4
+just filled square with 19
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 4
+x 7 y 4
+just filled square with 19
+--------------------
+if not filled: left + dx_outer 6  top + dy_outer 5
+board is filled with 17
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 5
+x 7 y 5
+just filled square with 19
+--------------------
+label L tile 20
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 4  top + dy_outer 6
+x 4 y 6
+just filled square with 20
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 6
+board is filled with 17
+--------------------
+if not filled: left + dx_outer 4  top + dy_outer 7
+x 4 y 7
+just filled square with 20
+--------------------
+if not filled: left + dx_outer 5  top + dy_outer 7
+x 5 y 7
+just filled square with 20
+--------------------
+label L tile 21
+s value 1
+offsets ((0, -1), (1, 0))
+if not filled: left + dx_outer 6  top + dy_outer 6
+x 6 y 6
+just filled square with 21
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 6
+x 7 y 6
+just filled square with 21
+--------------------
+if not filled: left + dx_outer 6  top + dy_outer 7
+x 6 y 7
+just filled square with 21
+--------------------
+if not filled: left + dx_outer 7  top + dy_outer 7
+board is filled with -1
+--------------------
+  3  3  4  4  8  8  9  9
+  3  2  2  4  8  7  7  9
+  5  2  6  6 10 10  7 11
+  5  5  6  1  1 10 11 11
+ 13 13 14  1 18 18 19 19
+ 13 12 14 14 18 17 17 19
+ 15 12 12 16 20 17 21 21
+ 15 15 16 16 20 20 21 -1
