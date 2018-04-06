@@ -4,3 +4,4 @@
 .python-version
 *.pyc
 *.idea
+Session.vim

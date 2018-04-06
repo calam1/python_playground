@@ -16,12 +16,13 @@ def cover(board, lab_L_tile=1, top=0, left=0, side=None):
     print('s value {}'.format(s))
 
     # Offsets for outer/inner squares of sub boards, the negative one in (0, -1) is for index offsetting
-    offsets = (0, -1), (side - 1, 0) #  side - 1 is for index offsetting
+    #offsets = (0, -1), (side - 1, 0) #  side - 1 is for index offsetting
+    offsets = (side - 1, 0), (0, -1) #  side - 1 is for index offsetting
 
     print('offsets {}'.format(offsets))
     
-    for dy_outer, dy_inner in offsets:
-        for dx_outer, dx_inner in offsets:
+    for dx_outer, dx_inner in offsets:
+        for dy_outer, dy_inner in offsets:
             print('if not filled: left + dx_outer {}'.format(left + dx_outer), ' top + dy_outer {}'.format(top + dy_outer))
             if not board[top + dy_outer][left + dx_outer]:
                 # ... label the inner corner
